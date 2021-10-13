@@ -2,13 +2,13 @@
     <div class="logos-wrapper">
         <h1>Heading 1</h1>
         <div class="item-logos">
-            <img src="" alt="">
+           <img  class="logo" alt="Vue logo" src="./../assets/microsoft.jpg">
         </div>
         <div class="item-logos">
-            <img src="" alt="">
+       <img class="logo"  alt="Vue logo" src="./../assets/google.png">
         </div>
         <div class="item-logos">
-            <img src="" alt="">
+         <img  class="logo" alt="Vue logo" src="./../assets/microsoft.jpg">
         </div>
     </div>
 </template>
@@ -31,8 +31,12 @@ export default {
 .item-logos{
     width: 150px;
     height: 150px;
-    background: red;
     float: left;
     margin-right: 20px;
+    background: red;
+}
+.item-logos .logo{
+    width: 150px;
+    height: 150px;
 }
 </style>
